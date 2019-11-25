@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
     <style>
+        body {
+            margin: 0;
+        }
+
         :root {
             --mdc-theme-primary: #009688;
             --mdc-theme-secondary: #FF9800;
@@ -23,9 +27,11 @@
 
 <body>
     <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
-        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-            <span class="mdc-top-app-bar__title">Home</span>
-        </section>
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <span class="mdc-top-app-bar__title">Home</span>
+            </section>
+        </div>
     </header>
 
     <main class="mdc-top-app-bar--fixed-adjust">
