@@ -7,6 +7,7 @@
     <title>Kiyohito Nara</title>
     <link rel="icon" type="image/png" href="images/icon.png">
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
     <style>
         body {
@@ -20,6 +21,10 @@
         }
 
         .mdc-card__title {
+            padding: 0 16px;
+        }
+
+        .mdc-card__secondary {
             padding: 0 16px;
         }
     </style>
@@ -69,6 +74,34 @@
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                </div>
+
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
+                    <div class="mdc-card">
+                        <div class="mdc-card__primary-action">
+                            <div class="mdc-card__media mdc-card__media--16-9" style="background-image: url(&quot;images/cover_analogi.png&quot;);"></div>
+                            <div class="mdc-card__primary">
+                                <h1 class="mdc-card__title">Analogi</h1>
+                            </div>
+                            <div class="mdc-card__secondary mdc-typography mdc-typography--body2">Analogi is a reverse image search application.</div>
+                        </div>
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button" onclick="window.open('https://github.com/KiyohitoNara/Analogi', '_blank')">
+                                    <span class="mdc-button__ripple"></span>
+                                    Source
+                                </button>
+                            </div>
+                            <div class="mdc-card__action-icons">
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" title="iOS" data-mdc-ripple-is-unbounded="true" disabled>
+                                    <span class="mdi mdi-apple-ios"></span>
+                                </button>
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" title="Android" data-mdc-ripple-is-unbounded="true" onclick="window.open('https://play.google.com/store/apps/details?id=io.github.kiyohitonara.analogi', '_blank')">
+                                    <span class="mdi mdi-android-head"></span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
